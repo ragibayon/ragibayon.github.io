@@ -6,27 +6,23 @@ header h1 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.953rem;
+  margin: 0;
+}
+
+header h1 a {
+  color: #495057;
+}
+
+header h1 a:hover {
+  color: #0d6dfd;
 }
 
 a {
   text-decoration: none;
 }
 
-.menu {
-  text-transform: uppercase;
-  color: #495057;
-}
-
 h5 {
   font-size: 1.953rem;
-}
-
-.menu a {
-  color: #495057;
-}
-
-.menu a:hover {
-  color: #0d6dfd;
 }
 
 .aboutme {
@@ -72,4 +68,31 @@ footer p {
 }
 .workexp li:last-child p {
   margin-bottom: 0px;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #495057;
+}
+
+nav a:hover {
+  color: #0d6dfd;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin: 0;
 }
