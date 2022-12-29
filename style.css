@@ -1,12 +1,11 @@
 body {
   font-family: Rubik, sans-serif;
+  color: #212529;
 }
 header h1 {
-  color: #023047;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.953rem;
-  color: 212529;
 }
 
 a {
@@ -20,7 +19,6 @@ a {
 
 h5 {
   font-size: 1.953rem;
-  margin-bottom: 30px;
 }
 
 .menu a {
@@ -28,13 +26,18 @@ h5 {
 }
 
 .menu a:hover {
-  color: #0d6efd;
+  color: #0d6dfd;
+}
+
+.aboutme {
+  /* background-color: #f1f8fa; */
+  border-radius: 10px;
 }
 
 .aboutme h1 {
   font-size: 2.441rem;
   font-weight: 500;
-  color: 212529;
+  color: #212529;
 }
 
 .aboutme p {
@@ -43,9 +46,8 @@ h5 {
   color: #343a40;
 }
 
-.aboutme {
-  background-color: #f1f8fa;
-  border-radius: 10px;
+.aboutme p:last-child {
+  margin-bottom: 0;
 }
 
 footer p {
@@ -60,4 +62,14 @@ footer p {
 .workexp h1 {
   font-size: 1.953rem;
   margin-bottom: 10px;
+}
+
+.workexp li {
+  margin-bottom: 30px;
+}
+.workexp li:last-child {
+  margin-bottom: 0px;
+}
+.workexp li:last-child p {
+  margin-bottom: 0px;
 }
