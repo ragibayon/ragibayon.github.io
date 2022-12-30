@@ -10,7 +10,7 @@ header h1 {
 }
 
 header h1 a {
-  color: #495057;
+  color: #22577a;
 }
 
 header h1 a:hover {
@@ -51,10 +51,6 @@ footer p {
   font-size: 0.8rem;
 }
 
-.workexp {
-  /* background-color: antiquewhite; */
-}
-
 .workexp h1 {
   font-size: 1.953rem;
   margin-bottom: 10px;
@@ -75,7 +71,7 @@ nav {
 }
 
 nav a {
-  color: #495057;
+  color: #22577a;
 }
 
 nav a:hover {
