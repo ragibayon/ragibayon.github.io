@@ -67,24 +67,62 @@
 
       <main>
         <h5 class="my-4">Web Design Projects</h5>
-        <p class="lead">
-          <a href="https://ragibayon.github.io/tindog/" target="_blank"
-            >Tindog</a
-          >. Developed a website using HTML CSS & Bootstrap v5.0
-        </p>
-        <p class="lead">
-          <a href="https://ragibayon.github.io/dicee/" target="_blank">Dicee</a
-          >. Manipulated the Document Object Model to create a fun dice tossing
-          game for two players.
-        </p>
-        <p class="lead">
-          <a href="https://ragibayon.github.io/Drum-Kit/" target="_blank"
-            >Drum Kit</a
-          >. Using Document Object Model created a fun and interactive drum kit
-          to play around.
-        </p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="projects-cards">
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+              <a href="https://ragibayon.github.io/tindog/" target="_blank">
+              <img src="/img/tindog.png" class="card-img-top" alt="tindog website" />
+              <div class="card-body">
+                <h5 class="card-title">Tindog</h5>
+                <p class="card-text">
+                  Designed and Developed a website to mimic a tinder for dogs,
+                  named tindog.
+                </p>
+                </a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">HTML | CSS | Bootstrap</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+               <a href="https://ragibayon.github.io/dicee/" target="_blank">
+              <img src="/img/dice.png" class="card-img-top" alt="dice dual website" />
+              <div class="card-body">
+                <h5 class="card-title">Dice Dual</h5>
+                <p class="card-text">
+                  Manipulated the Document Object Model to create a fun dice
+                  tossing game for two players.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">HTML | CSS | JavaScript</small>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100">
+              <a href="https://ragibayon.github.io/Drum-Kit/" target="_blank">
+              <img src="/img/drumkit.png" class="card-img-top" alt="drum kit website" />
+              <div class="card-body">
+                <h5 class="card-title">Drum Kit</h5>
+                <p class="card-text">
+                  Using Document Object Model created a fun and interactive drum
+                  kit to play around.
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">HTML | CSS | JavaScript</small>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </main>
-      <footer class="fixed-bottom mx-auto w-75 py-2">
+      <footer>
         <hr />
         <p>&copy; 2022 Ragib Shahariar Ayon</p>
       </footer>
@@ -94,5 +132,7 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/utils/projects.js"></script>
   </body>
 </html>
